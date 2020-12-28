@@ -7,11 +7,13 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +28,20 @@
 
 .App-link {
   color: #61dafb;
+}
+.text-brand{
+  color: #1cc7c1;
+}
+
+.btn-brand{
+  background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+  border-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.btn-brannnnd{
+  background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+ 
 }
 
 @keyframes App-logo-spin {

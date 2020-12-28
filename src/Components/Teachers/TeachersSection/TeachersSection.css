@@ -1,0 +1,36 @@
+
+.rs-team-1 {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transition: 0.4s all linear;
+    transition: 0.4s all linear;
+}
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.rs-team-1 {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+    border-bottom: 2px solid #FF7300;
+    background-color: #f8f8f8;
+}
+
+.rs-team-1 .body {
+    overflow: hidden;
+    color: #999999;
+    padding: 20px 20px;
+}

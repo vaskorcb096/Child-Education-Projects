@@ -1,0 +1,11 @@
+.photo-frame{
+    overflow: hidden;
+}
+.photo-frame:hover img{
+    transform: rotate(-60deg) scale(2.5);
+            
+    transition: transform 5s;
+}
+.Schedulestyle{
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
