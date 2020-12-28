@@ -12,7 +12,7 @@ const HeaderMain = () => {
     return (
       <div  className='header'>
          
-      <Carousel style={{background:'none'}}>
+      <Carousel className="">
           <Carousel.Item interval={1000}>
               <img src={slide01} style={{'maxHeight': '80vh'}}  className="d-block w-100 "  alt="First slide" >  
               </img>
